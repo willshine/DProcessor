@@ -2,7 +2,7 @@
 a simple python parallel execution framework
 
 use it like this:
-
+```python
 import dprocessor
 import time
 import sys
@@ -10,7 +10,7 @@ import sys
 class TestDprocessor:
     def __init__(self):
         self.id = 0
-
+        
     def test_per_process(self, num):
         self.id += num
         print self.id
@@ -40,3 +40,4 @@ if __name__ == '__main__':
     funcs = gen_funcs()
     multi_process.set_funcs(funcs)
     multi_process.run()
+```
