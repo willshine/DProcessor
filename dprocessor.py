@@ -8,7 +8,6 @@ Created on Mon Jun 06 10:40:11 2016
 import multiprocessing
 import time
 import datetime
-from dateFuncs import *
 
 def get_current_strtime():
     return datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S')
